@@ -1,9 +1,9 @@
 //
 //  UnityGameCenter.swift
-//  bearsaga
+//  GameCenterInUnity
 //
 //  Created by nasa8f on 2017/2/2.
-//  Copyright © 2017年 nasa8f. All rights reserved.
+//  Copyright © 2017年 Roger. All rights reserved.
 //
 
 import Foundation
