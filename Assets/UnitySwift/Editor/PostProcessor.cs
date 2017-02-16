@@ -76,7 +76,7 @@ namespace UnitySwift {
 			string projectString = project.WriteToString(); 
 			
 			//add entitlements file
-			projectString = projectString.Replace("/* Begin PBXFileReference section */", "/* Begin PBXFileReference section */\n\t\t" + ENTITLEMENTS_REFERENCE_CODE + " /* " + ENTITLEMENTS_NAME + " */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = " + ENTITLEMENTS_NAME + "; path = \"Unity - iPhone/" + ENTITLEMENTS_NAME + "\"; sourceTree = \" < group > \"; };"); 
+			projectString = projectString.Replace("/* Begin PBXFileReference section */", "/* Begin PBXFileReference section */\n\t\t" + ENTITLEMENTS_REFERENCE_CODE + " /* " + ENTITLEMENTS_NAME + " */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = " + ENTITLEMENTS_NAME + "; path = \"Unity-iPhone/" + ENTITLEMENTS_NAME + "\"; sourceTree = \" < group > \"; };"); 
 
 			//add entitlements file (again)
 			projectString = projectString.Replace("/* CustomTemplate */ = {\n			isa = PBXGroup;\n			children = (", "/* CustomTemplate */ = {\n			isa = PBXGroup;\n			children = (\n				" + ENTITLEMENTS_REFERENCE_CODE + " /* " + ENTITLEMENTS_NAME + " */,"); 
